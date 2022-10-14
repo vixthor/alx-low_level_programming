@@ -1,6 +1,6 @@
 #include <stdio.h>
 /* 
- * main - holds my main code
+ * main - Holds my main code
  *
  * Return: 0
  */
