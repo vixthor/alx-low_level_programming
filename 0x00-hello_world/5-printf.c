@@ -1,7 +1,7 @@
 #include <stdio.h>
-/*
- * printf - this is a function to print a value 
+/* 
  * main - holds my main code
+ *
  * Return: 0
  */
 int main(void)
