@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int num;
+	char num;
 
 	num = rand();
 
@@ -17,5 +17,6 @@ int main(void)
 		printf (num "is zero");
 	} else {
 		printf (num, "is negative");
-	}
+	};
+	return (0);
 }
