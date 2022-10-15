@@ -2,7 +2,7 @@
 /*
  * main - Prints out a code using the printf function
  *
- * description - Prints out code using printf function
+ * Description: Prints out code using printf function
  *
  * Return: 0
  */
