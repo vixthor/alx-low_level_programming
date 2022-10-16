@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include <time.h>
-#include <stlib.h>
+#include <stdlib.h>
 /**
  * main - Display a result based on the value of num
  *
  * Description: Using an if else statement and rand function to create a result
+ *
+ * Return: 0
  */
 int main(void)
 {
