@@ -10,6 +10,7 @@ int main(void)
 	char a;
 
 	for (a = 'a' ; a <= 'z' ; a++)
+	{
 		switch(a)
 		{
 			case 'e':
@@ -20,6 +21,7 @@ int main(void)
 				break;
 		}
 		putchar(a);
+	}
 	putchar('\n');
 	return (0);
 }
