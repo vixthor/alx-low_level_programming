@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <time.h>
+#include <stlib.h>
 /**
  * main - Display a result based on the value of num
  *
@@ -6,8 +8,8 @@
  */
 int main(void)
 {
-	int num = rand();
-
+	int num;
+	num = rand() - RAND_MAX / 2;
 	if (num < 0)
 	{
 		printf (num ,"%d is positive");
