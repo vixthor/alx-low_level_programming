@@ -1,8 +1,6 @@
 #include <stdio.h>
 /**
- *
- * main - function
- *
+ * main - This is a function
  * Return: 0
  */
 int main(void)
@@ -10,7 +8,6 @@ int main(void)
 	int a;
 
 	for (a = 0 ; a <= 10 ; a++)
-		putchar(a);
-	putchar('\n');
+		printf("%d", a, "\n");
 	return (0);
 }
