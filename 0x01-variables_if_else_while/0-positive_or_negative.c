@@ -6,17 +6,17 @@
  */
 int main(void)
 {
-	char num;
+	int num;
 
 	num = rand();
 
 	if (num < 0)
 	{
-		printf (num ,"is positive");
+		printf (num ,"%d is positive");
 	} else if (num = 0) {
-		printf (num "is zero");
+		printf (num "%d is zero");
 	} else {
-		printf (num, "is negative");
+		printf (num, "%d is negative");
 	};
 	return (0);
 }
