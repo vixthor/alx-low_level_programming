@@ -5,7 +5,7 @@
  * Return: 0
  */
 
-int min(void)
+int main(void)
 {
 	char a;
 	for (a ='a';a <= 'z'; a++)
@@ -13,4 +13,5 @@ int min(void)
 	for (a = 'A'; a <= 'Z'; a++)
 		putchar(a);
 	putchar('\n');
+	return (0);
 }
