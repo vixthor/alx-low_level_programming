@@ -11,7 +11,7 @@ int main(void)
 
 	for (a = 'a' ; a <= 'z' ; a++)
 	{
-		switch(a)
+		switch (a)
 		{
 			case 'e':
 				a++;
