@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main -function hehehe
+ * main - is a function
  *
  * Return: 0
  *
@@ -8,6 +8,7 @@
 int main(void)
 {
 	char a;
+
 	for (a = 'a'; a <= 'z';a++)
 		putchar(a);
 	for (a = 'A'; a <= 'Z';a++)
