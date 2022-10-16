@@ -6,9 +6,7 @@
  */
 int main(void)
 {
-	int num;
-
-	num = rand();
+	int num = rand();
 
 	if (num < 0)
 	{
