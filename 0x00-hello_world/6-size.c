@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - prints out the size of variable types
  *
  * Return: 0
@@ -9,8 +9,8 @@ int main(void)
 	int A;
 	long int B;
 	long long int C;
-	char D;					
-	float F;					
+	char D;
+	float F;
 
 	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(D));
 	printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(A));
