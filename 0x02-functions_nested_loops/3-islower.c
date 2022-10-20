@@ -4,7 +4,7 @@
  *
  * Return: 0 or 1
  *
- * c - contains a value
+ *int c - contains a value
  */
 int _islower(int c)
 {
