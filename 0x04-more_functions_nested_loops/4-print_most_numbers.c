@@ -13,16 +13,9 @@ void print_most_numbers(void)
 		{
 			c++;
 		}
-		else
-		{
-			continue;
 		if (c = '4')
 		{
 			c++;
-		}
-		else
-		{
-			continue;
 		}
 		_putchar(c);
 	}
