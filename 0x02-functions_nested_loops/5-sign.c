@@ -4,7 +4,9 @@
  *
  * @n: the value to be inputted
  *
- * Return 1 ,-1 or 0
+ * Returns 1 and prints + if n is greater than 0
+ * 0 and prints 0 if n is zero
+ * -1 and prints - if n is less than zero
  */
 int print_sign(int n)
 {
