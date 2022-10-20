@@ -2,9 +2,9 @@
 /**
  * print_sign - print out the sign of the number inputed
  *
- * @n: the value to be inputted
+ * @n: the value to be inputed
  *
- * Returns 1 and prints + if n is greater than 0
+ * Returns 1 and prints + if n is greater than zero
  * 0 and prints 0 if n is zero
  * -1 and prints - if n is less than zero
  */
