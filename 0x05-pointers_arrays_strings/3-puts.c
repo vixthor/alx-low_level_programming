@@ -7,9 +7,16 @@
 
 void _puts(char *str)
 {
-	for(; *str++;)
+	int i;
+
+	i = 0;
+	if (str[i] != '\0')
 	{
-		return (s);
+		for(; *str++;)
+		{
+			_putchar(str[i]);
+			i++;
+		}
 	}
 	_putchar('\n');
 }
