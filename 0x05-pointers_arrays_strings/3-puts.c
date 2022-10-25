@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _puts: prints out a string
+ * _puts - prints out a string
  * @str: the string
  * Return: the string
  */
@@ -12,7 +12,7 @@ void _puts(char *str)
 	i = 0;
 	if (str[i] != '\0')
 	{
-		for(; *str++;)
+		for (; *str++;)
 		{
 			_putchar(str[i]);
 			i++;
