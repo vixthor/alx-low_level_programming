@@ -11,7 +11,7 @@
 
 	count = 0;
 	while (s[count] != '\0')
-		n++;
+		count++;
 
 	for (end = count - 1 ; end >= 0; end--)
 	{
