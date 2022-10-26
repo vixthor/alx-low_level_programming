@@ -15,7 +15,7 @@
 
 	for (end = count - 1 ; end >= 0; end--)
 	{
-		_putchar(s[i]);
+		_putchar(s[end]);
 	}
 	_putchar('\n');
 }
