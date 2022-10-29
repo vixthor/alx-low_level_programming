@@ -1,5 +1,5 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 /**
  * main - prints out fizz for 3 buz for 5 and fizbuz for 5 & 3
  * Return: 0
