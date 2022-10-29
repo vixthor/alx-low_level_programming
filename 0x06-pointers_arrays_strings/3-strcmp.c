@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * strcmp - compare 2 strings
+ * _strcmp - compare 2 strings
  * @s1:string
  * @s2:strmp
  * Return:the number
