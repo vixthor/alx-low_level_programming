@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_sqaure - prints out a square of int size
+ * print_square - prints out a square of int size
  * @size: the value itself
  * Return: 0
  */
@@ -10,23 +10,16 @@ void print_square(int size)
 	int a;
 	int b;
 
-	b = 0;
-
-	while (b < size)
+	if (size <= 0)
 	{
-		if (size <= 0)
+		_putchar('\n');
+	}
+	for (b = 0; b <= size; b++)
+	{
+		for (a = 0; a <= size; a++)
 		{
-			_putchar('\n');
-			break;
+			_putchar('#');
 		}
-		else
-		{
-			for (a = 0; a <= size; a++)
-			{
-				_putchar('#');
-			}
-			_putchar('\n');
-		}
-		b++;
+		_putchar('\n');
 	}
 }
