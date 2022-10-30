@@ -21,5 +21,6 @@ int main(void)
 		F1 = temp;
 	}
 	printf("\n");
+	return (0);
 }
 
