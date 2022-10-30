@@ -3,10 +3,8 @@
  * add - add two int together
  * Return: the sum of the intergers
  */
-int add(int, int)
+int add(int a, int b)
 {
-	int a, b;
-
 	sum = a + b;
 	return (sum);
 }
