@@ -8,7 +8,6 @@
 
 void print_to_98(int n)
 {
-	int count;
 	for (; n <= 98; n++)
 	{
 		printf("%d",n);
