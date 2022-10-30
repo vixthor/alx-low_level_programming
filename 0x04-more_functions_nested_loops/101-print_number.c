@@ -7,6 +7,6 @@
 
 void print_number(int n)
 {
-
-	_putchar(n);
+	unsigned int number = n
+	_putchar(number);
 }
