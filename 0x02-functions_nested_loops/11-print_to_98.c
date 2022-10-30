@@ -8,13 +8,13 @@
 
 void print_to_98(int n)
 {
-	int count;
+	int count, no;
 
-	for(n = 0; n <= 98; n++)
+	no = n;
+	for(no = 0; no <= 98; no++)
 	{
 		count++;
 	}
-	n = 0;
 	while (n < 99)
 	{
 		if (count <= 1)
