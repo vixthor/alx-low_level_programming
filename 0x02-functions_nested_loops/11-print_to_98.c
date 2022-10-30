@@ -13,10 +13,11 @@ void print_to_98(int n)
 		if (n % 2 == 0)
 		{
 			printf("%d, ",n);
-			n++;
 		}
 		else
 		{
 			printf("%d",n);
+		}
+		n++;
 	}
 }
