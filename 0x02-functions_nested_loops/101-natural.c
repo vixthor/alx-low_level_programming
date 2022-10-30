@@ -6,9 +6,9 @@
 
 int main(void)
 {
-	int sum, no;
+	int sum, n;
 
-	n = 0
+	n = 0;
 	sum = 0;
 	while (n < 1025)
 	{
