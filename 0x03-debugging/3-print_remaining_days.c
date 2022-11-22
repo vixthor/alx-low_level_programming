@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
+ *
  * print_remaining_days - prints remaining days
  * @month: month in number format
  * @day: day of the month
