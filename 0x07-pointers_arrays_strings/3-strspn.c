@@ -7,11 +7,9 @@
  * Return: the number of bytes
  */
 
-unsigned int strspn(char *s, char *accept)
+unsigned int _strspn(char *s, char *accept)
 {
-	int a, b, c;
-
-	c = 0;
+	int a, b, c = 0;
 
 	for (a = 0; s[a] != '\0'; a++)
 	{
