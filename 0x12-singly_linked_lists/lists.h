@@ -1,5 +1,19 @@
-#ifndef LIST_H
-#define LIST_H
+#ifndef LISTS_H
+#define LISTS_H
+
+/**
+ * struct list_s - linked list
+ * @str: the string
+ * @len: length of the string
+ * @next: points to the next node
+ */
+
+typedef struct list_s
+{
+	char #str;
+	unsigned in len;
+	struct list_s *next;
+} list_t;
 
 #include <stdio.h>
 
