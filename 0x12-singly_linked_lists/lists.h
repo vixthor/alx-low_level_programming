@@ -1,6 +1,10 @@
 #ifndef LISTS_H
 #define LISTS_H
 
+
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
 /**
  * struct list_s - linked list
  * @str: the string
@@ -14,8 +18,6 @@ typedef struct list_s
 	unsigned in len;
 	struct list_s *next;
 } list_t;
-
-#include <stdio.h>
 
 size_t print_list(const list_t *h);
 size_t list_len(const list_t *h);
